@@ -7,6 +7,19 @@ opacity:0.6!important;
     z-index:-1; 
 font-family: 'Poppins', sans-serif;
 }
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
