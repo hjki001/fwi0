@@ -5,3 +5,14 @@ opacity:0.6!important;
     z-index:-1; 
 background-color:transparent;
 }
+
+#sidebar {
+min-width: 270px;
+max-width: 270px;
+background: #3445b4;
+color: #fff;
+-webkit-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+position: relative; 
+}
